@@ -1,0 +1,34 @@
+Extract the Subject-Verb-Object (SVO) triples of every sentence:
+
+Text:
+Hi! Nice to meet you! My name is John Smith. I am 19 and a student in college. I go to college in New York. My favorite courses are Geometry, French, and History. English is my hardest course. My professors are very friendly and smart. It’s my second year in college now. I love it!
+
+SVO:
+(John Smith,goes to,college)
+(college,is in,New York)
+(John Smith,fave courses,Geometry)
+(John Smith,fave courses,French)
+(John Smith,fave courses,History)
+(John Smith,hardest course,English)
+(college,friendly,professors)
+(college,smart,professors)
+(John Smith,second year,college)
+(John Smith,loves,college)
+
+Text:
+I live in a big house on Ivy Street. It’s near the college campus. I share the house with three other students. Their names are Bill, Tony, and Paul. We help each other with homework. On the weekend, we play football together.
+
+SVO:
+(John Smith,lives on,big house)
+(big house,is on,Ivy Street)
+(big house,is near,college)
+(big house,contains,Bill)
+(big house,contains,Tony)
+(big house,contains,Paul)
+(big house,homework collaboratgion,big house)
+(big house,weekend football,big house)
+
+Text:
+<<SUMMARY>>
+
+SVO:
